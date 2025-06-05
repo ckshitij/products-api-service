@@ -91,8 +91,8 @@ Create a new product.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ckshitij/rest-api-product.git
-cd rest-api-product
+git clone https://github.com/ckshitij/products-api-service.git
+cd products-api-service
 ```
 
 ### 2. Install dependencies
@@ -132,3 +132,8 @@ npm run prod
 docker build -t products-api-service:0.0.1 .
 ```
 
+- Docker Run
+
+```
+docker run -p 7008:7008 --env-file=.env  products-api-service:0.0.1
+```
