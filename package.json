@@ -1,0 +1,28 @@
+{
+  "name": "products-api-service",
+  "version": "0.0.1",
+  "description": "creating products APIs in typescript using MongoDB",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --transpile-only src/server.ts"
+  },
+  "keywords": [
+    "node-with-typescript"
+  ],
+  "author": "kshitij chaurasiya",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "json-parser": "^3.1.2",
+    "mongoose": "^8.15.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
