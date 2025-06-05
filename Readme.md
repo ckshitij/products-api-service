@@ -51,6 +51,7 @@ Create a new product.
   "isAvailable": true,
   "quantity": 10
 }
+```
 
 ### Response:
 - `201 OK`: Returns an array of products.
@@ -123,5 +124,11 @@ npm run dev
 
 ```
 npm run prod
+```
+
+- Docker Build
+
+```
+docker build -t products-api-service:0.0.1 .
 ```
 
